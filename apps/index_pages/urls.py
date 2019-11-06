@@ -10,7 +10,7 @@ urlpatterns = [
     url(r'contact/', Contact.as_view(), name='contact'),
     url(r'portfolio/', Galery.as_view(), name='galery'),
     url(r'pricing/', Pricing.as_view(), name='pricing'),
-    url(r'services/', Pricing.as_view(), name='services'),
+    url(r'services/', Services.as_view(), name='services'),
 
 
 ]
